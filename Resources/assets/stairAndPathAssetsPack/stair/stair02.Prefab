@@ -1,0 +1,215 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "stair02",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.SubObjectDefaultProbability, Game",
+                "name": "SubObjectDefaultProbability",
+                "active": true,
+                "m_DefaultProbability": 100,
+                "m_RotationSymmetry": 0
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.EditorAssetCategoryOverride, Game",
+                "name": "EditorAssetCategoryOverride",
+                "active": true,
+                "m_IncludeCategories": {
+                    "$id": 4,
+                    "$type": "4|System.String[], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        "Props/Road Decorations"
+                    ]
+                },
+                "m_ExcludeCategories": {
+                    "$id": 5,
+                    "$type": 4,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 6,
+                "$type": "5|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"CID:b58eb4a31e4a355084fa9d69cdd401dd",
+                "m_Priority": 104,
+                "m_Icon": "coui://customassets/stairAndPathAssetsPack/stair/stair02.png",
+                "m_LargeIcon": null,
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 7,
+        "$type": "6|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 7,
+        "$rcontent": [
+            {
+                "$id": 8,
+                "$type": "7|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:58a8fddf6bcaa4e44aea66e25b7404d0",
+                "m_Position": {
+                    "$type": "8|Unity.Mathematics.float3, Unity.Mathematics",
+                    "x": -6,
+                    "y": -1.7,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": "9|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "10|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            },
+            {
+                "$id": 9,
+                "$type": 7,
+                "m_Mesh": $fstrref:"UnityGUID:58a8fddf6bcaa4e44aea66e25b7404d0",
+                "m_Position": {
+                    "$type": 8,
+                    "x": -5.5,
+                    "y": -1.4,
+                    "z": 0.001
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": -5.847688E-11,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            },
+            {
+                "$id": 10,
+                "$type": 7,
+                "m_Mesh": $fstrref:"UnityGUID:58a8fddf6bcaa4e44aea66e25b7404d0",
+                "m_Position": {
+                    "$type": 8,
+                    "x": -5,
+                    "y": -1.1,
+                    "z": 0.002
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": -5.847688E-11,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            },
+            {
+                "$id": 11,
+                "$type": 7,
+                "m_Mesh": $fstrref:"UnityGUID:58a8fddf6bcaa4e44aea66e25b7404d0",
+                "m_Position": {
+                    "$type": 8,
+                    "x": -4.5,
+                    "y": -0.8,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": -5.847688E-11,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            },
+            {
+                "$id": 12,
+                "$type": 7,
+                "m_Mesh": $fstrref:"UnityGUID:58a8fddf6bcaa4e44aea66e25b7404d0",
+                "m_Position": {
+                    "$type": 8,
+                    "x": -4,
+                    "y": -0.5,
+                    "z": 0.001
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": -5.847688E-11,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            },
+            {
+                "$id": 13,
+                "$type": 7,
+                "m_Mesh": $fstrref:"UnityGUID:58a8fddf6bcaa4e44aea66e25b7404d0",
+                "m_Position": {
+                    "$type": 8,
+                    "x": -3.5,
+                    "y": -0.2,
+                    "z": 0.004
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": -5.847688E-11,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            },
+            {
+                "$id": 14,
+                "$type": 7,
+                "m_Mesh": $fstrref:"UnityGUID:58a8fddf6bcaa4e44aea66e25b7404d0",
+                "m_Position": {
+                    "$type": 8,
+                    "x": -3,
+                    "y": 0.1,
+                    "z": 0.003
+                },
+                "m_Rotation": {
+                    "$type": 9,
+                    "value": {
+                        "$type": 10,
+                        "x": 0,
+                        "y": 0,
+                        "z": -5.847688E-11,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}

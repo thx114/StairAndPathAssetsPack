@@ -1,0 +1,25 @@
+{
+  "Assets.NAME[footbridge]": "天桥 (2x1)",
+  "Assets.DESCRIPTION[footbridge]": "天桥的一端，可以使用人行道相连",
+
+  "Assets.NAME[footbridge_thin]": "天桥 - 细 (2x1)",
+  "Assets.DESCRIPTION[footbridge_thin]": "天桥的一端，可以使用人行道相连",
+
+  "Assets.NAME[2x1_stair]": "楼梯 (2x1)",
+  "Assets.DESCRIPTION[2x1_stair]": "去除了人行道的天桥",
+
+  "Assets.NAME[2x1_stair_thin]": "楼梯 - 细 (2x1)",
+  "Assets.DESCRIPTION[2x1_stair_thin]": "去除了人行道的天桥",
+
+  "Assets.NAME[stair01]": "楼梯 1",
+  "Assets.DESCRIPTION[stair01]": "用于造景或资产编辑",
+
+  "Assets.NAME[stair02]": "楼梯 2",
+  "Assets.DESCRIPTION[stair02]": "用于造景或资产编辑",
+
+  "Assets.NAME[1x1_underpath]": "过街地道口 (1x1)",
+  "Assets.DESCRIPTION[1x1_underpath]": "过街地道的出入口，也可以作为模块化地铁站（另一个mod）的出入口",
+
+  "Assets.NAME[5x3_underpath]": "过街地道口 (5x3)",
+  "Assets.DESCRIPTION[5x3_underpath]": "过街地道的出入口，也可以作为模块化地铁站（另一个mod）的出入口"
+}

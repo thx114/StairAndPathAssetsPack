@@ -2,18 +2,50 @@
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
 	<ModId Value="" />
 	<!--Name of the mod to display to players-->
-	<DisplayName Value="TODO#1" />
+	<DisplayName Value="Stair and Path Assets Pack" />
 	<!--Short description of the mod-->
-	<ShortDescription Value="TODO#2" />
+	<ShortDescription Value="Add stairs, footbridges, and pedestrian underpasses." />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
-TODO#3
+## Stair and Path Assets Pack
+Add stairs, footbridges, and pedestrian underpasses.
+
+### Warning:
+Assets are experimental. Please back up your save file before use. Known issues include:
+- Once your save uses these roads, removing the mod may cause white textures.
+
+## Assets
+- footbridge
+- footbridge_thin
+- stair (2x1)
+- stair thin (2x1)
+- stair 1
+- stair 2
+- pedestrian underpasses (1x1)
+- pedestrian underpasses (5x3)
+
+## Localization
+- en-US
+- zh-HANS
+
+## How to Use
+Install this mod to load the assets.
+Recommend using the Anarchy mod to connect footbridge/underpasses.
+
+## Acknowledgment
+Special thanks to Konsi for the asset loading framework.
+
+## More
+If you want to create a similar asset pack, please use this template£ºhttps://github.com/kosch104/CS2-CustomAssetPack
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
 	<!--Screenshot, can be set multiple times-->
-	<Screenshot Value="" />
+	<Screenshot Value="Properties/S1.jpg" />
+	<Screenshot Value="Properties/S2.jpg" />
+	<Screenshot Value="Properties/S3.jpg" />
+	<Screenshot Value="Properties/S4.jpg" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
@@ -30,4 +62,5 @@ TODO#3
 	</ChangeLog-->
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="discord" Url="https://discord.gg/UkKAfRqfCn" />
+	<ExternalLink Type="github" Url="https://github.com/thx114/stairAndPath" />
 </Publish>

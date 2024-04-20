@@ -1,7 +1,7 @@
 {
     "$id": 0,
     "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
-    "name": "CarProp",
+    "name": "__SAP_EU_Wall01Long_ST",
     "active": true,
     "components": {
         "$id": 1,
@@ -10,14 +10,10 @@
         "$rcontent": [
             {
                 "$id": 2,
-                "$type": "2|Game.Prefabs.UIObject, Game",
-                "name": "UIObject",
+                "$type": "2|Game.Prefabs.ContentPrerequisite, Game",
+                "name": "ContentPrerequisite",
                 "active": true,
-                "m_Group": null,
-                "m_Priority": 1,
-                "m_Icon": "coui://customassets/ExamplePack/CarProp.png",
-                "m_LargeIcon": "",
-                "m_IsDebugObject": false
+                "m_ContentPrerequisite": $fstrref:"UnityGUID:81bd5c4adfeefd44fb71243cdfc406e7"
             }
         ]
     },
@@ -29,7 +25,7 @@
             {
                 "$id": 4,
                 "$type": "4|Game.Prefabs.ObjectMeshInfo, Game",
-                "m_Mesh": $fstrref:"UnityGUID:a785b21c32e039549923bcd8a21fc674",
+                "m_Mesh": $fstrref:"UnityGUID:2bac2e05e11269c479a2792d0a28ad7a",
                 "m_Position": {
                     "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
                     "x": 0,

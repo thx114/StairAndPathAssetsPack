@@ -1,4 +1,25 @@
 {
-  "Assets.NAME[CarProp]": "Example Name",
-  "Assets.DESCRIPTION[CarProp]": "Example Description"
+  "Assets.NAME[footbridge]": "footbridge",
+  "Assets.DESCRIPTION[footbridge]": "one end of the footbridge, pedestrian paths can be used to connect with each other.",
+
+  "Assets.NAME[footbridge_thin]": "footbridge_thin",
+  "Assets.DESCRIPTION[footbridge_thin]": "one end of the footbridge, pedestrian paths can be used to connect with each other.",
+
+  "Assets.NAME[2x1_stair]": "stair (2x1)",
+  "Assets.DESCRIPTION[2x1_stair]": "A footbridge without pedestrian paths.",
+
+  "Assets.NAME[2x1_stair_thin]": "stair thin (2x1)",
+  "Assets.DESCRIPTION[2x1_stair_thin]": "A footbridge without pedestrian paths.",
+
+  "Assets.NAME[stair01]": "stair 1",
+  "Assets.DESCRIPTION[stair01]": "Used as a decoration or asset edit.",
+
+  "Assets.NAME[stair02]": "stair 2",
+  "Assets.DESCRIPTION[stair02]": "Used as a decoration or asset edit.",
+
+  "Assets.NAME[1x1_underpath]": "pedestrian underpasses (1x1)",
+  "Assets.DESCRIPTION[1x1_underpath]": "The entrances and exits of pedestrian underpasses can also serve as entrances and exits for modular subway stations (another mod). Using pedestrian paths to connect with each other.",
+
+  "Assets.NAME[5x3_underpath]": "pedestrian underpasses (5x3)",
+  "Assets.DESCRIPTION[5x3_underpath]": "The entrances and exits of pedestrian underpasses can also serve as entrances and exits for modular subway stations (another mod). Using pedestrian paths to connect with each other."
 }
